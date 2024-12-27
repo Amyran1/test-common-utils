@@ -19,7 +19,7 @@ git+https://github.com/YOUR_USERNAME/test-common-utils.git
 To install a specific version:
 
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/test-common-utils.git@v0.1.0
+pip install git+https://github.com/YOUR_USERNAME/test-common-utils.git@v0.1.2
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ pip install git+https://github.com/YOUR_USERNAME/test-common-utils.git@v0.1.0
 ### Logger
 
 ```python
-from src.utils import create_logger
+from test_common_utils.utils import create_logger
 
 # Basic usage
 logger = create_logger(name="my_app")
